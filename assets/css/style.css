@@ -1,0 +1,448 @@
+
+body {
+  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  padding-top: 54px;
+  color: #868e96;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+
+#hd {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.5rem;
+  color: red;
+}
+
+.pd  { 
+  margin-bottom: 10px;
+  font-size: 26px;
+  font-weight: 700;
+  padding: 1PX;
+  color: #050d18;
+
+}
+
+
+/**/
+.pds {
+  padding: 1PX;
+ text-align: justify;
+ font-family: Times New Roman;
+  font-size: 20px;
+}
+
+.sub { 
+ float: right; 
+ position: relative;
+ color: black; 
+ text-align: right; 
+ font-size: 20px;
+ font-style: italic;
+  font-style: bold;
+}
+.smain { 
+ float: right; 
+ position: relative;
+ color: darkorange; 
+ text-align: right; 
+ font-size: 20px;
+ font-style: italic;
+  font-style: bold;
+}
+
+#colp{
+  color: green;
+  border-radius: 50px;
+  text-align: left;
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+
+#colp a span {
+  color: blue;
+  font-weight: bolder;
+}
+#colp a:hover span{
+  background-color:white;
+  color: black;
+  font-weight: bolder;
+}
+
+
+#colp a:focus span{
+  color: violet;
+  font-weight: bolder;
+}
+
+#colp a:active span{
+  color: red;
+  font-weight: bolder;
+}
+
+.nav-item a:hover span{
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+}
+
+.nav-item a:focus span{
+  color: violet;
+  font-weight: bolder;
+}
+
+.nav-item a:active span{
+  background-color: white;
+  color: blue;
+  font-weight: bolder;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: Arial Rounded MT Bold;
+  font-size: 1.0rem;
+}
+
+
+.SkillsList {
+  font-weight: 400;
+  font-family: Arial Rounded MT Bold;
+  font-size: 1.3rem;
+}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+
+.abtname h3{ 
+ color: black; 
+ text-align: left; 
+ font-size: 40px;
+  font-style: bolder;
+  text-align:center; 
+}
+
+.abtquote { 
+ color: black;  
+ font-size: 20px;
+  font-style: bolder;
+  text-align:center;
+  font-weight: bolder;
+ margin-top: 40px;
+}
+
+.abtquote span { 
+  font-style: bolder; 
+}
+
+.abtnum { 
+ color: black;  
+ font-size: 20px;
+  font-style: bolder;
+  text-align:center;
+  font-weight: bolder;
+}
+
+.abtnum span { 
+  font-style: bolder; 
+}
+
+.ablink { 
+  color: black;  
+  font-size: 20px;
+  text-align:center;
+}
+
+.ablink span { 
+  font-style: bolder; 
+}
+
+.abtdep { 
+  font-size: 20px;
+ color: red; 
+ font-style: bolder;
+ text-align:center; 
+}
+
+.abtdep span { 
+ color: red; 
+ font-style: bolder;
+}
+
+.abtAdd{ 
+   font-size: 20px;
+  text-align:center; 
+}
+
+.abtAdd span{ 
+font-style: bolder;
+}
+
+.abtAdd1{ 
+   font-size: 20px;
+  text-align:center; 
+  margin-left: 30px;
+}
+
+.abtAdd1 span { 
+font-style: bolder;
+}
+
+.abt{ 
+   font-size: 20px;
+  text-align:center; 
+}
+
+.abt span { 
+font-style: bolder;
+font-weight: bolder;
+font-size: 80px;
+}
+/*--------------------------------------------------------------
+# Facts
+--------------------------------------------------------------*/
+
+/*scroll button*/
+#myBtn {
+  width: 25px;
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 10px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  border-radius: 50%;/* Rounded corners */
+}
+
+#myBtn:hover {
+  background-color: green; /* Add a dark-grey background on hover */
+}
+
+/*--------------------------------------------------------------
+# Resume  margin-top: 2px;
+  margin-bottom: 20px;
+--------------------------------------------------------------*/
+
+ .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #050d18;
+  /*padding: 1px;*/  
+}
+
+ .resume .resume-title h1 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  color: #050d18;
+  /*padding: 1px;*/  
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #1f5297;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 0.5px;
+}
+
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 6px solid #1f5297;
+}
+
+#footer-section{
+background-color: #0B0334;
+color: white;
+padding: 1rem;
+}
+
+/*.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a:hover {
+  background-color: #BD5D38;
+}
+
+.dev-icons {
+  font-size: 3rem;
+}
+
+.dev-icons .list-inline-item i:hover {
+  color: #BD5D38;
+}
+*/
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+#sideNav .navbar-toggler:focus {
+  outline-color: #d48a6e;
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+  /*  text-align: center; */
+    position: fixed;
+    top: 50;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+
+  .img-fluid {
+   /*width: 112px;
+  height: 15vh;*/
+   width: 110px;
+  height: 100px;
+  background-size: contain;
+
+}
+
+  #sideNav .navbar-brand {
+    /*margin: auto auto 0;*/
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    /*max-width: 10rem;
+    max-height: 10rem;*/
+    border: 0.2rem solid rgba(55, 25, 255, 0.2);
+    top: 0;
+  }
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+}
+
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+/*bg color for the side bar */
+.bg-primary {
+  background-color: darkorange !important;
+}
+
+/* text color for the side bar icons*/
+.text-primary {
+  color: red !important;
+}
+
+a {
+  color: #BD5D38;
+}
+
+a:hover {
+  color: violet;
+}
+a:focus {
+  color: purple;
+}
+a:active {
+  color: green;
+}
